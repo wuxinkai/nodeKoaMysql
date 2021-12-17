@@ -1,0 +1,30 @@
+{
+  "name": "nodekoamysql",
+  "version": "1.0.0",
+  "description": "```\r # 初始化\r npm  init -y",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuxinkai/nodeKoaMysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuxinkai/nodeKoaMysql/issues"
+  },
+  "homepage": "https://github.com/wuxinkai/nodeKoaMysql#readme",
+  "dependencies": {
+    "koa2": "^2.0.0-alpha.7",
+    "koa2-cors": "^2.0.6",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0"
+  }
+}
