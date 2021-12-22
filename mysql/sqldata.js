@@ -52,4 +52,14 @@ data.map(val=>{
 
 
 
+
 // 执行   node .\mysql\sqldata.js   就可以插入到数据库数据
+
+
+//创建 users 的 数据量语句
+// create table users (
+// 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+// 	user VARCHAR(20) NOT NULL COMMENT '账号',
+// 	pwd VARCHAR(20) NOT NULL COMMENT '密码',
+//   token LONGTEXT NOT NULL COMMENT '令牌'
+// );

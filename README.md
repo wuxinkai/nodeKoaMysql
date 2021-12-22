@@ -139,7 +139,12 @@ app.use(static(path.join(__dirname+'/assets')));
 //在url输入  http://localhost:9000/images/banner1.jpg  就可以访问到当前页面
 ```
 # 获取后台数据
+获取post请求数据
 ```
+cnpm install koa-bodyparser --save
 ```
-
+生成token
+```
+cnpm install jsonwebtoken --save
+```
 

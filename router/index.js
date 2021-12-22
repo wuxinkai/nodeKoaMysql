@@ -6,6 +6,7 @@ const router = new Router()
 const list  =require('./list')
 const home  =require('./home')
 const api  =require('./api')
+const login  =require('./login')
 
 
 
@@ -14,6 +15,9 @@ router.use('/home',home.routes(),home.allowedMethods())
 
 //外部引入list路由模块
 router.use('/list',list.routes(),list.allowedMethods())
+
+//登录
+router.use('/login',login.routes(),login.allowedMethods())
 
 router.use('/api',api.routes(),api.allowedMethods())
 router.redirect('/api','/api/users')

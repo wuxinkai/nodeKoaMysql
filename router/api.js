@@ -1,7 +1,7 @@
 const Router = require('koa-router');
-const errorPage = new Router();
+const apiPage = new Router();
 
-errorPage.get('/users', async (ctx) => {
+apiPage.get('/users', async (ctx) => {
   let users = [
     {id:1,name:'zhufeng1'},
     {id:2,name:'zhufeng2'},
@@ -10,4 +10,4 @@ errorPage.get('/users', async (ctx) => {
     ctx.body = JSON.stringify(users)
 })
 
-module.exports = errorPage;
+module.exports = apiPage;
