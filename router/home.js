@@ -11,7 +11,6 @@ homes.get('/banner', async (ctx) => {
   let myData = await new Promise((resolve, reject) => {
     db.query(`SELECT * FROM banner`, (err, data) => {
       if (err) console.log(err);
-
       data.map(v=>{
         v.imgUrl = `http://49.232.19.124:9000${v.imgUrl}`
       })
