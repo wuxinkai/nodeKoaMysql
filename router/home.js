@@ -13,7 +13,7 @@ homes.get('/banner', async (ctx) => {
       if (err) console.log(err);
 
       data.map(v=>{
-        v.imgUrl = `http://localhost:9000${v.imgUrl}`
+        v.imgUrl = `http://49.232.19.124:9000${v.imgUrl}`
       })
 
       resolve(data)
